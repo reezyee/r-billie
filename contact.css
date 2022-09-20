@@ -1,0 +1,16 @@
+#comments,.post_meta,#blog-pager{display:none}
+form{color:#666}
+form.payforpal{margin:auto;text-align:center}
+#kontak-arlina{margin:auto;max-width:640px}
+#ContactForm1_contact-form-name,#ContactForm1_contact-form-email{height:auto;margin:5px auto;padding:15px 12px;background:#fff;color:#444;border:1px solid rgba(0,0,0,.14);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);border-radius:3px;width:100%;min-width:100%;transition:all 0.5s ease-out}
+#ContactForm1_contact-form-email-message{width:100%;height:175px;margin:5px 0;padding:15px 12px;background:#fff;color:#444;border:1px solid rgba(0,0,0,.14);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);border-radius:3px;resize:none;transition:all 0.5s ease-out}
+#ContactForm1_contact-form-name:focus,#ContactForm1_contact-form-email:focus,#ContactForm1_contact-form-email-message:focus{outline:none;background:#fff;color:#444;border-color:#66afe9;box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,0.6)}
+#ContactForm1_contact-form-submit{float:left;background:#1abc9c;margin:auto;vertical-align:middle;cursor:pointer;padding:16px 20px;font-size:14px;text-align:center;letter-spacing:.5px;border:0;width:100%;border-radius:4px;color:#fff;font-weight:500;transition:all .2s ease}
+#ContactForm1_contact-form-submit:hover{background:#16a085;color:#fff;}
+#ContactForm1_contact-form-error-message,#ContactForm1_contact-form-success-message{width:100%;margin-top:35px}
+.contact-form-error-message-with-border{background:#f47669;border:0;box-shadow:none;color:#fff;padding:5px 0;border-radius:3px}
+.contact-form-success-message{background:#4fc3f7;border:0;box-shadow:none;color:#fff;border-radius:3px}
+img.contact-form-cross{line-height:40px;margin-left:5px}
+.post-body input{width:initial}
+@media only screen and (max-width:640px){
+#ContactForm1_contact-form-name, #ContactForm1_contact-form-email,#ContactForm1_contact-form-submit{width:100%;}}

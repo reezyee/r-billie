@@ -1,0 +1,20 @@
+h1,h2
+   {
+   font-family: times;
+   text-shadow: 2px 2px #708090;
+   }
+   
+   h3
+   {
+   text-shadow: 0 0 3px #708090;
+   }
+   
+   h4,h6,header
+   {
+   color: white;
+   }
+   h1,h2
+   {
+   color: white;
+   }
+  
