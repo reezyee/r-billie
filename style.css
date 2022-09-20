@@ -5,7 +5,8 @@
 }
 body
 {
-   background-image: url("/storage/emulated/0/image/wpbill.jpg");
+   background-image: url("wpbill.jpg");
    background-size: cover;
    background-position: center;
 }
+
