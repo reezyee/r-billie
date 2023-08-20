@@ -5,7 +5,8 @@
 }
 body
 {
-   background-image: url("wpbill.jpg");
+   background: url("photo/download.jpeg");
+   background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
 }

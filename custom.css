@@ -1,0 +1,37 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+   font-family: Billie Eilish;
+   margin: 0;
+   padding: 0;
+   background-color: #0b111f;
+   background-image: url("photo/IMG_20230820_100419_545.webp");
+   background-size: cover;
+   background-position: center;
+}
+.navbar {
+   background-color: #54994d;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+}
+.navbar-brand img {
+   width: 30px;
+   height: 35px;
+}
+
+.content {
+   background-color: #156c49;
+   color: white;
+}
+.welcome{
+   box-shadow:  2px 2px 8px 8px #54994d;
+   background-color: #3e5a24;
+   color: white;
+   padding-top: 60px;
+}
+
+.row {
+   color: white;
+   font-size: 25px;
+}

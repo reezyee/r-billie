@@ -11,6 +11,17 @@ html {
   box-sizing: inherit;
 }
 
+.navbar {
+  background-color: #54994d;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-brand img {
+  width: 30px;
+  height: 35px;
+}
+
 .column {
   float: left;
   width: 33.3%;
