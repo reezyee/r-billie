@@ -29,6 +29,7 @@ header {
   
   header .container {
     position: relative;
+    z-index: 3;
   }
   
   header .overlay {
