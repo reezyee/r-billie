@@ -31,32 +31,29 @@ body {
 }
 
 .player {
-  max-width: 500px;
-  margin: 7rem auto;
-  background: white;
-  padding: 36px 32px 24px 32px;
-  border-radius: 14px;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  width: 100%;
+  padding: 36px;
 }
 
 .player-track-meta {
   text-align: center;
+
 }
 
 .player-track-meta p {
   margin: 0;
-  font-size: 20px;
-  color: #0e0e0e;
+  font-size: 50pxpx;
+  color: #ffffff;
   font-weight: 700;
 }
 
 .player-track-meta span {
-  font-size: 16px;
+  font-size: 35px;
   font-weight: 400;
   padding: 0 2px;
   position: relative;
   top: 1px;
-  color: #a3a3a3;
+  color: #ffffff;
 }
 
 .player-controls {
@@ -85,7 +82,7 @@ body {
 }
 
 .player-play-btn svg { 
-  color: #0e0e0e;
+  color: #ffffff;
   position: relative;
   left: 0.5px;
   width: 36px;
@@ -107,7 +104,7 @@ body {
 
 .player-progress {
   display: flex;
-  postion: relative;
+  position: relative;
   height: 6px;
   background: #a3a3a3;
   border-radius: 25px;
@@ -119,7 +116,7 @@ body {
 
 .player-progress-filled {
   height: 6px;
-  background: #0e0e0e;
+  background: #ffffff;
   flex: 0;
   flex-basis: 0%;
   border-radius: 25px;
@@ -148,8 +145,8 @@ body {
   width: 100%;
   height: 6px;
   cursor: pointer;
-  animate: 0.2s;
-  background: #0e0e0e;
+  animation: 0.2s;
+  background: #ffffff;
   border-radius: 10px;
 }
 
@@ -158,22 +155,22 @@ body {
   width: 16px;
   border-radius: 100px;
   border: none;
-  background: #0e0e0e;
+  background: #ffffff;
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -4px;
 }
 
 .player-volume:focus::-webkit-slider-runnable-track {
-  background: #0e0e0e;
+  background: #ffffff;
 }
 
 .player-volume::-moz-range-track {
   width: 100%;
   height: 6px;
   cursor: pointer;
-  animate: 0.2s;
-  background: #0e0e0e;
+  animation: 0.2s;
+  background: #ffffff;
   border-radius: 10px;
 }
 
@@ -182,7 +179,7 @@ body {
   width: 16px;
   border-radius: 100px;
   border: none;
-  background: #0e0e0e;
+  background: #ffffff;
   cursor: pointer;
   margin-top: -4px;
 }
@@ -191,18 +188,18 @@ body {
   width: 100%;
   height: 6px;
   cursor: pointer;
-  animate: 0.2s;
-  background: #0e0e0e;
+  animation: 0.2s;
+  background: #ffffff;
   border-radius: 10px;
 }
 
 .player-volume::-ms-fill-lower {
-  background: #0e0e0e;
+  background: #ffffff;
   border-radius: 10px;
 }
 
 .player-volume::-ms-fill-upper {
-  background: #0e0e0e;
+  background: #ffffff;
   border-radius: 10px;
 }
 
@@ -212,7 +209,7 @@ body {
   width: 15px;
   border-radius: 5px;
   border: none;
-  background: #0e0e0e;
+  background: #ffffff;
   cursor: pointer;
 }
 
